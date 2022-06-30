@@ -1,5 +1,5 @@
 # F4RefToBlender
-Import Reference data from Fallout 4 or Skyrim CK into Blender using this and BadDogSkyrim's nifly implementaion
+Import Reference data from Fallout 4 or Skyrim CK into Blender using this and BadDogSkyrim's nifly implementaion.
 
 Using Bethesda Archive Extractor, export the Meshes, Textures, and optionally Materials archives onto a large HDD.
 
