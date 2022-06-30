@@ -6,4 +6,6 @@ Using Bethesda Archive Extractor, export the Meshes, Textures, and optionally Ma
 Then, in Bethsoft's Creation Kit, export the object data table which contains the editorID and internal file path.
 After that, choose an exterior or interior cell and export it's reference data.
 
-In Blender, import the python script, and adjust the 3 file path strings to match yours.
+Install this Blender addon: https://github.com/BadDogSkyrim/PyNifly
+In Blender, import the python script into the text editor, and adjust the 3 file path strings to match yours.
+Execute the script. Blender will lock up, but you can monitor the progress in the seperate terminal window.
