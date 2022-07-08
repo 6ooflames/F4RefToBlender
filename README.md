@@ -1,11 +1,56 @@
-# F4RefToBlender
-Import Reference data from Fallout 4 or Skyrim CK into Blender using this and BadDogSkyrim's nifly implementaion.
 
-Using Bethesda Archive Extractor, export the Meshes, Textures, and optionally Materials archives onto a large HDD.
+# F4RefToBlender   [![Badge License]][License]
 
-Then, in Bethsoft's Creation Kit, export the object data table which contains the editorID and internal file path.
-After that, choose an exterior or interior cell and export it's reference data.
+*Import reference data from **Bethesda** games into **Blender**.*
 
-Install this Blender addon: https://github.com/BadDogSkyrim/PyNifly
-In Blender, import the python script into the text editor, and adjust the 3 file path strings to match yours.
-Execute the script. Blender will lock up, but you can monitor the progress in the seperate terminal window.
+<br>
+
+## Supported
+
+<kbd>  Fallout 4  </kbd>  
+<kbd>  Skyrim CK  </kbd>
+
+<br>
+<br>
+
+## Requirements
+
+- **[PyNifly]**
+
+<br>
+<br>
+
+## Usage
+
+1.  Use **Bethesda Archive Extractor** to export:
+    
+    <kbd>  Meshes  </kbd>  
+    <kbd>  Textures  </kbd>  
+    <kbd>  ( Materials )  </kbd>
+    
+    *Requires a lot of space.*
+    
+2.  Use **Bethesda's Creation Kit** to export the object data <br>
+    table which contains the editorID and internal file path.
+    
+3.  Choose an exterior / interior cell and export its reference data;
+
+4.  Import the python script into **Blender**'s text editor.
+
+5.  Adjust the 3 file paths to match yours.
+
+6.  Execute the script.
+
+    *Blender will lock up, however you can monitor* <br>
+    *the progress in a separate terminal window.*
+
+<br>
+
+
+<!----------------------------------------------------------------------------->
+
+[PyNifly]: https://github.com/BadDogSkyrim/PyNifly
+
+[License]: LICENSE
+
+[Badge License]: https://img.shields.io/badge/License-GPL_3-blue.svg?style=for-the-badge
