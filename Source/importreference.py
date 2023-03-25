@@ -19,7 +19,7 @@ for attr in attrs:
     if name in pathmap:
         floats = [float(s) for s in attrs[attr]]
         old_objects = {obj for obj in bpy.data.objects}
-        bpy.ops.import_scene.nifly(filepath = r"" + "\\" + pathmap[name])
+        bpy.ops.import_scene.pynifly(filepath = r"" + "\\" + pathmap[name])
         new_objects = {obj for obj in bpy.data.objects}
         added_objects = new_objects.difference(old_objects)
         print(name, "attributes are", attrs[attr])
