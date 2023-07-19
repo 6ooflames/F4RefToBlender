@@ -1,7 +1,7 @@
 
 # F4RefToBlender   [![Badge License]][License]
 
-*Import reference data from **Bethesda** games into **Blender**.*
+*Import levels/cells from **Bethesda** games into **Blender**.*
 
 <br>
 
